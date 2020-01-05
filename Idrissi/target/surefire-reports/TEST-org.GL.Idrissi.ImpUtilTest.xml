@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="7" name="org.GL.Idrissi.ImpUtilTest" time="0" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\eclipse-workspace\Idrissi"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\Idrissi"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16352671008439439523.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-13.0.1/bin/server;C:/Program Files/Java/jdk-13.0.1/bin;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.timezone" value="Africa/Casablanca"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="HP"/>
+    <property name="java.class.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.14.0.20191209-1923\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\HP\eclipse-workspace\Idrissi\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testProd" time="0">
+    <failure message="org/junit/jupiter/api/Assertions" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testProd(ImpUtilTest.java:20)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.Assertions
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 19 more
+</failure>
+  </testcase>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testDiv" time="0"/>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testAdd" time="0">
+    <failure message="org/junit/jupiter/api/Assertions" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testAdd(ImpUtilTest.java:31)
+</failure>
+  </testcase>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testSoustr" time="0"/>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testPGCD" time="0">
+    <failure message="org/junit/jupiter/api/Assertions" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testPGCD(ImpUtilTest.java:41)
+</failure>
+  </testcase>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testFact" time="0">
+    <failure message="org/junit/jupiter/api/Assertions" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testFact(ImpUtilTest.java:47)
+</failure>
+  </testcase>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testBin" time="0">
+    <failure message="org/junit/jupiter/api/Assertions" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testBin(ImpUtilTest.java:53)
+</failure>
+  </testcase>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.test_exception" time="0">
+    <failure message="org/junit/jupiter/api/function/Executable" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/jupiter/api/function/Executable
+	at org.GL.Idrissi.ImpUtilTest.test_exception(ImpUtilTest.java:59)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.function.Executable
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 19 more
+</failure>
+  </testcase>
+  <testcase classname="org.GL.Idrissi.ImpUtilTest" name="org.GL.Idrissi.ImpUtilTest.testEstPair" time="0">
+    <failure message="org/junit/jupiter/api/Assertions" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testEstPair(ImpUtilTest.java:70)
+</failure>
+  </testcase>
+</testsuite>

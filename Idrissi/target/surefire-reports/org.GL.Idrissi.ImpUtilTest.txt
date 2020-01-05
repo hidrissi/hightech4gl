@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: org.GL.Idrissi.ImpUtilTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
+org.GL.Idrissi.ImpUtilTest.testProd()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testProd(ImpUtilTest.java:20)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.Assertions
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 19 more
+
+org.GL.Idrissi.ImpUtilTest.testAdd()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testAdd(ImpUtilTest.java:31)
+
+org.GL.Idrissi.ImpUtilTest.testPGCD()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testPGCD(ImpUtilTest.java:41)
+
+org.GL.Idrissi.ImpUtilTest.testFact()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testFact(ImpUtilTest.java:47)
+
+org.GL.Idrissi.ImpUtilTest.testBin()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testBin(ImpUtilTest.java:53)
+
+org.GL.Idrissi.ImpUtilTest.test_exception()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/function/Executable
+	at org.GL.Idrissi.ImpUtilTest.test_exception(ImpUtilTest.java:59)
+Caused by: java.lang.ClassNotFoundException: org.junit.jupiter.api.function.Executable
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:602)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 19 more
+
+org.GL.Idrissi.ImpUtilTest.testEstPair()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/junit/jupiter/api/Assertions
+	at org.GL.Idrissi.ImpUtilTest.testEstPair(ImpUtilTest.java:70)
+
