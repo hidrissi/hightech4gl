@@ -11,5 +11,6 @@ public class App
         System.out.println( "Hello World!" );
         System.out.println(T1.min(16,5));
         System.out.println(T1.min(3,17));
+        System.out.println(T1.min(0,0));
     }
 }
